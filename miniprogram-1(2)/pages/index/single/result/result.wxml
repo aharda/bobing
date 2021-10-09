@@ -1,0 +1,6 @@
+<view class="container">
+<text class="c1" style="width: 320px; height: 99rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+{{result_sum}}
+</text>
+<image class="c2" src="../../../../image/bk1.png" style="width: 774rpx; height: 1217rpx; position: absolute; left: -12rpx; top: -29rpx; display: block; box-sizing: border-box"></image>
+</view>

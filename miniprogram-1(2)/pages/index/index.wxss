@@ -1,0 +1,44 @@
+
+.container{
+  width: 100%;
+  height: 568rpx;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+image{
+  position: absolute;
+  width: 100%;
+  height: 568rpx;
+}
+.up{
+  position: absolute;
+  z-index: 1;
+}
+.single{
+    color: #000000;
+    position: fixed;
+    bottom: 50px;
+    background-color: #FFD664;
+    border-radius: 98rpx;
+}
+.multiplay{
+    color: aquamarine;
+    position: fixed;
+    bottom: 0;
+    background-color: black;  
+    border-radius: 98rpx;
+}
+.rule{
+    color: #000000;
+    position: fixed;
+    right: 10px;
+    background-color: #FFD664;  
+}
+.rule_text
+{
+    position: fixed;
+    right: 23px;
+    top: 5px;
+    font-size: 10px;
+}

@@ -1,0 +1,112 @@
+/* pages/single/single.wxss */
+.container{
+    width: 100%;
+    height: 568rpx;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  image{
+    position: absolute;
+    width: 100%;
+    height: 568rpx;
+}
+  .create{
+    color: aquamarine;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+}
+.join{
+    color: aquamarine;
+    position: fixed;
+    bottom: 50px;
+    background-color: black;  
+}
+.top{
+  width: 220px;
+  height: 30px;
+  font-size: 25px;
+  margin: 20px auto;
+}
+.point1 image,.point2 image,.point3 image,.point4 image,.point5 image,.point6 image{
+  width: 50px;
+  height: 50px;
+}
+.point1 image{
+  display: block;
+  top: 15px;
+  left: 0px;
+}
+.point2 image{
+  top: 18px;
+  left: 51px;
+   
+}
+.point3 image{
+  top: 18px;
+  left: 102px;
+}
+.point4 image{
+  top: 15px;
+  left: 153px;
+}
+.point5 image{
+
+  top: 18px;
+  left: 204px;
+}
+.point6 image{
+  top: 15px;
+  left: 255px;
+}
+.btn{
+  widows:45px;
+  height:40px;
+  background:#FFD664;
+  text-align: center;
+  bottom: 0%;
+  left: 76px;
+  position: fixed;
+  border-radius: 98rpx;
+}
+.btn2{
+  widows:45px;
+  height:40px;
+  background:#FFD664;
+  text-align: center;
+  bottom: 150px;
+  left: 76px;
+  position: fixed;
+  border-radius: 98rpx;
+}
+.rule{
+  color: #000000;
+  position: fixed;
+  right: 10px;
+  background-color: #FFD664;  
+}
+.rule_text
+{
+    position: fixed;
+    right: 23px;
+    top: 5px;
+    font-size: 10px;
+}
+.btn3{
+  widows:45px;
+  height:55px;
+  background:red;
+  text-align: center;
+  bottom: 350px;
+  left: 76px;
+  position: fixed;
+}
+
+.Pnumber{
+  background-color: aquamarine;
+  z-index: 500;
+
+}
+
+

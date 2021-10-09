@@ -1,0 +1,13 @@
+<view class="container">
+  <image src="../../image/bk1.png" style="width: 774rpx; height: 1217rpx; position: absolute; left: -12rpx; top: -29rpx; display: block; box-sizing: border-box">
+    <button>按钮</button>
+  
+    <button>按钮</button>
+  
+    <text style="position:relative;">文本</text>
+  </image>
+  <button bindtap="ClickSingle" class="single" style="position: fixed; left: 160rpx; top: 1027rpx; width: 432rpx; height: 92rpx; display: block; box-sizing: border-box">开始博饼
+    
+  </button>
+  <button style="width: 30px; height: 20px; position: fixed; left: 638rpx; top: 0rpx" bindtap="Rule" class="rule"><text class="rule_text" style="position: fixed; left: 666rpx; top: 8rpx; width: 61rpx; height: 64rpx; display: block; box-sizing: border-box">规则</text></button>
+</view> 

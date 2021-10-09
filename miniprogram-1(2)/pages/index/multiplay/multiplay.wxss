@@ -1,0 +1,26 @@
+/* pages/multiplay/multiplay.wxss */
+
+.container{
+    width: 100%;
+    height: 568rpx;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  image{
+    position: absolute;
+    width: 100%;
+    height: 568rpx;
+  }
+  .create{
+    color: aquamarine;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+}
+.join{
+    color: aquamarine;
+    position: fixed;
+    bottom: 50px;
+    background-color: #000000;  
+}

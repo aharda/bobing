@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/begin/begin",
+    "pages/index/index",
+    "pages/index/single/single",
+    "pages/index/single/result/result",
+    "pages/index/multiplay/multiplay",
+    "pages/index/multiplay/create/create",
+    "pages/index/multiplay/join/join"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#BA231A",
+    "navigationBarTitleText": "中秋博饼",
+    "navigationBarTextStyle":"black",
+    "background-Color": "#BA231A"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

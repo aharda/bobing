@@ -1,0 +1,35 @@
+<view>
+    <view class="container">
+        <image src="../../../image/bk1.png" style="width: 774rpx; height: 1217rpx; position: absolute; left: -12rpx; top: -29rpx; display: block; box-sizing: border-box"></image>
+    <image src="../../../image/bowl.png" style="width: 626rpx; height: 666rpx; position: absolute; left: 63rpx; top: 24rpx; display: block; box-sizing: border-box"></image>
+    <button style="width: 30px; height: 20px; position: fixed; left: 638rpx; top: 0rpx" bindtap="Rule" class="rule"><text class="rule_text" style="position: fixed; left: 666rpx; top: 8rpx; width: 61rpx; height: 64rpx; display: block; box-sizing: border-box">规则</text></button>
+    </view>
+    <view >  
+        <button bindtap="modalinput"class="btn2"  style="position: fixed; left: 160rpx; top: 736rpx; width: 432rpx; height: 92rpx; display: block; box-sizing: border-box">人数：{{pnumber}}</button>   
+        </view>  
+        <modal hidden="{{hiddenmodalput}}" title="请输入一局人数" confirm-text="确认" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">  
+        <input placeholder="请输入数字" auto-focus value="{{pnumber}}" bindinput="messageChang"/>  
+        </modal>  
+        <view class='top'>{{txt}}</view>
+        <view class='point1'>
+        <image src='{{one_img}}' style="position: absolute; left: 234rpx; top: 465rpx"></image>
+        </view>
+        <view class='point2'>
+        <image src='{{two_img}}' style="position: absolute; left: 234rpx; top: 153rpx"></image>
+        </view>
+        <view class='point3'>
+        <image src='{{three_img}}' style="position: absolute; left: 234rpx; top: 308rpx"></image>
+        </view>
+        <view class='point4'>
+        <image src='{{four_img}}' style="position: absolute; left: 416rpx; top: 153rpx"></image>
+        </view>
+        <view class='point5'>
+        <image src='{{five_img}}' style="position: absolute; left: 416rpx; top: 308rpx"></image>
+        </view>
+        <view class='point6'>
+        <image src='{{six_img}}' style="position: absolute; left: 416rpx; top: 465rpx"></image>
+        </view>
+        <button class='btn' bindtap='enter' style="position: fixed; left: 160rpx; top: 1027rpx; width: 432rpx; height: 92rpx; display: block; box-sizing: border-box">{{msg}}</button>
+        <button class="btn2" style="position: fixed; left: 160rpx; top: 879rpx; width: 432rpx; height: 92rpx; display: block; box-sizing: border-box">{{result}}</button>
+</view>
+

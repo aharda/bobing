@@ -1,0 +1,4 @@
+<view class = "container">
+    <image src="../../../image/rule.jpeg" style="width: 844rpx; height: 1449rpx; position: absolute; left: -50rpx; top: -188rpx; display: block; box-sizing: border-box">
+    </image>
+    </view>
